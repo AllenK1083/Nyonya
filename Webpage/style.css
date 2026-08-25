@@ -1,0 +1,309 @@
+:root {
+  --ink: #1f1b18;
+  --cream: #f7f2e9;
+  --paper: #fffdf9;
+  --accent: #9a2f24;
+  --accent-dark: #742219;
+  --line: #ded5c8;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  position: relative;
+  isolation: isolate;
+  margin: 0;
+  color: var(--ink);
+  background: var(--cream);
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+}
+
+/* Centered, subtle Nyonya logo watermark */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background: url("../Assets/Nyonya Logo Alpha.png") center / contain no-repeat;
+  opacity: 0.12;
+  pointer-events: none;
+}
+
+a {
+  color: inherit;
+}
+
+.wrap {
+  width: min(1080px, calc(100% - 40px));
+  margin: 0 auto;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: var(--paper);
+  border-bottom: 1px solid var(--line);
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  min-height: 82px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.logo img {
+  display: block;
+  width: 144px;
+  height: 52px;
+  object-fit: contain;
+  object-position: left center;
+}
+
+nav {
+  display: flex;
+  gap: 22px;
+  font-size: 0.95rem;
+}
+
+nav a {
+  font-weight: 700;
+  text-decoration: none;
+}
+
+nav a:hover,
+nav a:focus-visible {
+  color: var(--accent);
+}
+
+main {
+  padding: 68px 0 0;
+}
+
+.intro {
+  max-width: 720px;
+  margin: 0 auto 54px;
+  text-align: center;
+}
+
+.eyebrow {
+  margin: 0 0 12px;
+  color: var(--accent);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+h1,
+h2 {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  line-height: 1.15;
+}
+
+h1 {
+  font-size: clamp(2.4rem, 6vw, 4.7rem);
+}
+
+h2 {
+  font-size: clamp(1.8rem, 4vw, 2.8rem);
+}
+
+.intro p:last-child,
+.about p,
+.contact-copy p {
+  font-size: 1.06rem;
+}
+
+/* Full hero image, responsive, with no cropping */
+.hero-image {
+  width: min(1280px, calc(100% - 40px));
+  margin: 0 auto;
+  background: #c7a889;
+}
+
+.hero-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+section {
+  padding: 82px 0;
+}
+
+.about {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 70px;
+  align-items: start;
+}
+
+.about p {
+  margin: 0;
+}
+
+.contact {
+  background: var(--paper);
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 70px;
+}
+
+.business-info {
+  display: grid;
+  gap: 20px;
+}
+
+.business-info div {
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--line);
+}
+
+.business-info strong {
+  display: block;
+  color: var(--accent);
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.business-info a {
+  text-decoration: none;
+}
+
+.business-info a:hover,
+.business-info a:focus-visible {
+  text-decoration: underline;
+}
+
+.reservation {
+  padding-bottom: 92px;
+}
+
+.reservation-box {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: clamp(28px, 5vw, 54px);
+  background: var(--paper);
+  border: 1px solid var(--line);
+}
+
+.reservation-box > p {
+  margin: 16px 0 30px;
+}
+
+form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+label {
+  display: grid;
+  gap: 7px;
+  font-size: 0.88rem;
+  font-weight: 700;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  color: var(--ink);
+  background: #fff;
+  border: 1px solid #bfb4a5;
+  border-radius: 0;
+  font: inherit;
+}
+
+textarea {
+  min-height: 110px;
+  resize: vertical;
+}
+
+.full {
+  grid-column: 1 / -1;
+}
+
+button {
+  width: fit-content;
+  padding: 13px 22px;
+  color: #fff;
+  background: var(--accent);
+  border: 0;
+  cursor: pointer;
+  font: inherit;
+  font-weight: 700;
+}
+
+button:hover,
+button:focus-visible {
+  background: var(--accent-dark);
+}
+
+footer {
+  padding: 28px 0;
+  color: #645a50;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+@media (max-width: 700px) {
+  .nav {
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    min-height: 70px;
+    padding: 12px 0;
+  }
+
+  .logo img {
+    width: 118px;
+    height: 44px;
+  }
+
+  nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px 14px;
+    font-size: 0.85rem;
+  }
+
+  main {
+    padding-top: 48px;
+  }
+
+  .about,
+  .contact-grid,
+  form {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
+  section {
+    padding: 58px 0;
+  }
+}

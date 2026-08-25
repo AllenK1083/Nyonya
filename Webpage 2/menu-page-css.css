@@ -1,0 +1,157 @@
+/* Add this block to the BOTTOM of your existing style.css file. */
+
+.menu-page main {
+  padding-top: 0;
+}
+
+.menu-page-heading {
+  padding: 68px 0 48px;
+  background: rgba(255, 253, 249, 0.82);
+  border-bottom: 1px solid var(--line);
+  text-align: center;
+}
+
+.menu-page-heading > .wrap {
+  max-width: 760px;
+}
+
+.menu-page-heading p:last-child {
+  margin: 18px auto 0;
+  font-size: 1.06rem;
+}
+
+.menu-jump-nav {
+  position: sticky;
+  top: 82px;
+  z-index: 9;
+  padding: 12px 0;
+  background: rgba(255, 253, 249, 0.97);
+  border-bottom: 1px solid var(--line);
+  backdrop-filter: blur(10px);
+}
+
+.menu-jump-links {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  padding-bottom: 2px;
+  scrollbar-width: thin;
+}
+
+.menu-jump-links a {
+  flex: 0 0 auto;
+  padding: 8px 12px;
+  color: var(--ink);
+  background: rgba(255, 253, 249, 0.9);
+  border: 1px solid var(--line);
+  font-size: 0.86rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.menu-jump-links a:hover,
+.menu-jump-links a:focus-visible {
+  color: #fff;
+  background: var(--accent);
+  border-color: var(--accent);
+}
+
+.menu-note {
+  padding: 22px 0 0;
+  color: var(--muted);
+  font-size: 0.88rem;
+  text-align: center;
+}
+
+.menu-note p {
+  margin: 0;
+}
+
+.spicy-key {
+  display: inline-block;
+  padding: 2px 7px;
+  color: var(--accent-dark);
+  background: #f3d9d5;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.menu-list-section {
+  padding: 0 0 82px;
+}
+
+.menu-category {
+  scroll-margin-top: 150px;
+  padding: 60px 0 0;
+}
+
+.menu-category h2 {
+  margin-bottom: 22px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid var(--accent);
+  font-size: clamp(1.7rem, 3vw, 2.25rem);
+}
+
+.full-menu-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.full-menu-item {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  min-height: 108px;
+  padding: 17px 18px;
+  background: rgba(255, 253, 249, 0.94);
+  border: 1px solid var(--line);
+}
+
+.full-menu-item h3 {
+  font-size: 1.1rem;
+}
+
+.full-menu-item p {
+  margin: 7px 0 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.45;
+}
+
+.full-menu-item > strong {
+  flex: 0 0 auto;
+  color: var(--accent);
+  font-size: 0.96rem;
+  white-space: nowrap;
+}
+
+.full-menu-item .spicy-tag {
+  vertical-align: middle;
+}
+
+@media (max-width: 700px) {
+  .menu-page-heading {
+    padding: 48px 0 36px;
+  }
+
+  .menu-jump-nav {
+    top: 116px;
+  }
+
+  .menu-category {
+    scroll-margin-top: 180px;
+    padding-top: 46px;
+  }
+
+  .full-menu-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .full-menu-item {
+    min-height: 0;
+  }
+}

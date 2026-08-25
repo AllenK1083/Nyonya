@@ -1,0 +1,101 @@
+category,category_id,name,description,price,spicy,homepage
+Appetizers,appetizers,Roti Canai,"Original, thin and crispy.",7.5,FALSE,TRUE
+Appetizers,appetizers,Roti Telur,Egg and onion.,9.95,FALSE,TRUE
+Appetizers,appetizers,Roti Prata,Thick and buttery Malaysian pancake with curry chicken dipping sauce.,7.25,TRUE,TRUE
+Appetizers,appetizers,Pasembur,"Cucumber, jicama, bean sprouts, tofu, shrimp pancake, jellyfish, egg, peanuts, and chef's special sauce.",11.95,TRUE,TRUE
+Appetizers,appetizers,Nyonya Rojak,"Nyonya fruit salad with squid, shrimp paste sauce, sesame seeds, and peanuts.",9.95,FALSE,TRUE
+Appetizers,appetizers,Nyonya Satay,Charcoal-grilled skewers served with Malaysian-style peanut sauce.,16.95,TRUE,TRUE
+Appetizers,appetizers,Ipoh Bean Sprouts,Scalded bean sprouts and dried onions with chef's special sauce.,8.95,FALSE,TRUE
+Appetizers,appetizers,Vegetable Spring Roll,Eight deep-fried spring rolls with white turnip.,9.95,FALSE,TRUE
+Appetizers,appetizers,Baby Oyster Omelette,Pan-fried baby oysters with eggs.,13.95,FALSE,TRUE
+Appetizers,appetizers,Nyonya Chicken Wings,Deep-fried marinated chicken wings wrapped in screw pine leaves.,12.95,FALSE,TRUE
+Appetizers,appetizers,Nyonya Lobak,"Crispy fried spiced pork roll, tofu, and shrimp pancake with hoisin plum and chili sauces.",13.95,FALSE,TRUE
+Appetizers,appetizers,Seaweed Salad,"Jicama, lettuce, cucumber, mango, carrot, tomato, sesame, and mayonnaise sauce.",7.95,FALSE,TRUE
+Poultry,poultry,Hainanese Chicken,Tender Hainanese chicken with fragrant rice.,18.95,FALSE,TRUE
+Poultry,poultry,Nyonya Kari Ayam,Chicken on the bone simmered with lemongrass and chili paste in a rich coconut curry.,20.95,TRUE,TRUE
+Poultry,poultry,Sarang Burong,"Fried taro nest filled with shrimp, chicken, corn, onion, peppers, snow peas, and mushroom.",22.95,FALSE,TRUE
+Poultry,poultry,Garlic Chicken,Deep-fried chicken with garlic and chef's soy sauce.,20.95,FALSE,TRUE
+Poultry,poultry,Crispy Chicken with Salad,"Boneless shredded chicken with mayonnaise sauce, cucumber, jicama, and lettuce.",22.95,FALSE,TRUE
+Poultry,poultry,Mango Chicken,"Chicken with shredded mango, peppers, and onion in a spicy sweet-and-sour sauce.",20.95,TRUE,TRUE
+Poultry,poultry,Braised Duck with Lotus Seed,Tender duck with fragrant lotus seeds in a savory broth.,23.95,FALSE,TRUE
+Poultry,poultry,Ginger Duck,Tender duck cooked with ginger.,20.95,FALSE,TRUE
+Poultry,poultry,Sesame Chicken,"Marinated, battered, fried chicken in sweet sesame sauce.",20.95,FALSE,TRUE
+Soups,soups,Salted Cabbage and Bean Curd Soup,"Squid, pork, chicken, shrimp, tofu, tomato, salted cabbage, scallion, and ginger in chicken broth.",14.95,FALSE,FALSE
+Soups,soups,Seaweed Seafood Soup,"Seaweed, squid, scallop, shrimp, tomato, ginger, scallion, and egg in chicken broth.",14.95,FALSE,FALSE
+Soups,soups,Seafood with Bean Curd Soup,"Squid, scallop, shrimp, tomato, ginger, scallion, and tofu in chicken broth.",14.95,FALSE,FALSE
+Soups,soups,Seafood Tom Yum Soup,"Spicy and sour lemongrass broth with seafood, mushrooms, onion, corn, and tomato.",17.95,TRUE,FALSE
+Soups,soups,Bah Kut Teh,Meaty pork ribs simmered in a complex broth of Chinese herbs and spices.,16.95,FALSE,FALSE
+Noodles,noodles,Chow Kueh Teow,"Flat rice noodles with shrimp, chives, squid, bean sprouts, egg, soy sauce, and chili paste.",15.95,TRUE,TRUE
+Noodles,noodles,Hokkien Char Mee,"Thick yellow noodles in dark soy sauce with shrimp, squid, pork, chicken, and vegetables.",15.95,FALSE,TRUE
+Noodles,noodles,Indian Mee Goreng,"Indian-style stir-fried egg noodles with tofu, potato, shrimp, egg, bean sprouts, and peanuts.",15.95,TRUE,TRUE
+Noodles,noodles,Singapore Rice Noodles,"Rice noodles with shrimp, peppers, onion, bean sprouts, egg, and Chinese sausage.",15.95,TRUE,TRUE
+Noodles,noodles,Beef Chow Fun,"Flat noodles with beef, onion, scallion, and bean sprouts.",15.95,FALSE,TRUE
+Noodles,noodles,Cantonese Chow Fun,"Flat noodles in brown gravy with chicken, shrimp, squid, and vegetables.",16.95,FALSE,TRUE
+Noodles,noodles,Mee Siam,"Rice noodles with tofu, egg, chive, shrimp, and bean sprouts in spicy Thai chili sauce.",15.95,TRUE,TRUE
+Noodles,noodles,Pad Thai,"Rice noodles with tofu, shrimp, egg, sprouts, onion, string beans, chili sauce, and peanuts.",15.95,TRUE,TRUE
+Noodles,noodles,Prawn Mee Soup,"Egg noodles, pork, shrimp, sprouts, and fried onions in spicy shrimp broth.",15.95,TRUE,TRUE
+Noodles,noodles,Penang Asam Laksa,"Thick rice noodles in a spicy, sour lemongrass broth with fish flakes and vegetables.",15.95,TRUE,TRUE
+Noodles,noodles,Curry Mee with Young Tau Foo,Egg noodles in spicy lemongrass coconut curry with tofu and fish-stuffed vegetables.,15.95,TRUE,TRUE
+Noodles,noodles,Wonton Mee,"Egg noodles with scallion, minced pork, shrimp wontons, and sauce or chicken broth.",14.95,FALSE,TRUE
+Rice Dishes,rice,Nasi Lemak,"Coconut rice with chili, anchovy, pickles, curry chicken on the bone, and hard-boiled egg.",16.95,TRUE,TRUE
+Rice Dishes,rice,Hainanese Chicken with Rice,Steamed chicken with fragrant chicken rice and chef's special soy sauce.,12.95,FALSE,TRUE
+Rice Dishes,rice,Curried Chicken with Rice,Chicken on the bone served with rice.,14.95,TRUE,TRUE
+Rice Dishes,rice,Curried Beef with Rice,Curried beef served with rice.,15.95,TRUE,TRUE
+Rice Dishes,rice,Young Chow Fried Rice,"Fried rice with pork, shrimp, chicken, onion, egg, carrot, and green peas.",15.95,FALSE,TRUE
+Rice Dishes,rice,Nyonya Seafood Fried Rice,Malaysian-style seafood fried rice.,15.95,TRUE,TRUE
+Rice Dishes,rice,Pineapple Fried Rice,"Fried rice with chicken, shrimp, egg, basil, vegetables, pineapple, and dried shrimp.",15.95,TRUE,TRUE
+Rice Dishes,rice,Duck with Ginger and Scallions over Rice,Savory duck with ginger and scallions over rice.,14.95,FALSE,TRUE
+Rice Dishes,rice,Spicy Thai Chicken Rice,Chicken with rice topped with chef's special spicy Thai sauce.,14.95,TRUE,TRUE
+Rice Dishes,rice,White Rice,A simple side of steamed white rice.,2,FALSE,TRUE
+Rice Dishes,rice,Coconut Rice,Fragrant rice cooked with coconut milk.,2.5,FALSE,TRUE
+Vegetables & Bean Curd,vegetables,Achat,"Cold turmeric-pickled vegetables with spicy herbs, sesame seeds, and peanuts.",8.95,TRUE,TRUE
+Vegetables & Bean Curd,vegetables,Fried Crispy Vegetable Duck,Crispy fried Malaysian vegetarian duck.,10.95,FALSE,TRUE
+Vegetables & Bean Curd,vegetables,Malaysian Buddhist,"Mixed vegetables with bean curd skin, peppers, corn, snow peas, glass noodles, and mushrooms.",18.95,FALSE,TRUE
+Vegetables & Bean Curd,vegetables,Bean Curd Thai Style,Fried bean curd in chef's special spicy sauce.,18.95,TRUE,TRUE
+Vegetables & Bean Curd,vegetables,Salted Fish with Chinese Broccoli,Chinese kale with salted fish.,17.95,FALSE,TRUE
+Vegetables & Bean Curd,vegetables,Spinach with Preserved Bean Curd Sauce,Fresh spinach in savory fermented tofu sauce.,17.95,FALSE,TRUE
+Vegetables & Bean Curd,vegetables,Chinese Watercress with Preserved Bean Curd Sauce,Watercress in savory fermented tofu sauce.,17.95,FALSE,TRUE
+Vegetables & Bean Curd,vegetables,Princess Bean Curd,"Lightly fried egg tofu with chicken, snow peas, dried scallops, and mushroom in brown sauce.",20.95,FALSE,FALSE
+Seafood & Fish,seafood,Nyonya House Special Squid,Squid sautéed with spicy ground dried shrimp in authentic sauce.,19.95,TRUE,TRUE
+Seafood & Fish,seafood,Mango Shrimp,"Shrimp with shredded mango, peppers, onion, and spicy sweet-and-sour sauce.",19.95,TRUE,TRUE
+Seafood & Fish,seafood,Masak Shrimp,"Shrimp with vegetables, dried shrimp, chili, and ginger in aromatic gravy.",19.95,TRUE,TRUE
+Seafood & Fish,seafood,Sambal Shrimps,"Shrimp sautéed with Malaysian shrimp paste, mango, onion, and peppers.",19.95,TRUE,TRUE
+Seafood & Fish,seafood,Coconut Jumbo Prawns,Butterflied jumbo prawns in aromatic coconut batter.,29.95,TRUE,TRUE
+Seafood & Fish,seafood,Clams with Black Bean Sauce,"Clams with a savory, sweet, and spicy fermented black bean sauce.",19.95,FALSE,TRUE
+Seafood & Fish,seafood,Deep Fried Fish in Thai Sauce,Deep-fried fish in spicy lemongrass sauce.,30.95,TRUE,TRUE
+Seafood & Fish,seafood,Deep Fried Mango Fish,"Fish with shredded mango, cucumber, and onion in sweet-and-sour sauce.",30.95,FALSE,TRUE
+Seafood & Fish,seafood,Chenglai Stingray,Stingray cooked slowly in authentic lemongrass broth.,25.5,TRUE,TRUE
+Seafood & Fish,seafood,Dried Curry Fish Head,"Fish head with eggplant, onion, peppers, and tomato in dried curry sauce.",26.95,TRUE,TRUE
+Pork & Beef,pork-beef,Spare Ribs Malaysian Style,Deep-fried marinated spare ribs served with special sauce.,20.95,FALSE,FALSE
+Pork & Beef,pork-beef,King Pork Buff,Deep-fried pork chop in authentic barbecue sauce.,20.95,FALSE,FALSE
+Pork & Beef,pork-beef,Curry Spare Ribs,Malaysian-style curry spare ribs.,20.95,TRUE,FALSE
+Pork & Beef,pork-beef,House Special Pork with Yams,Double-cooked pork with yam in a special brown sauce.,18.95,FALSE,FALSE
+Pork & Beef,pork-beef,Malaysia Sweet and Sour,"Choice of protein, lightly battered and stir-fried with tomatoes, cucumber, onion, pineapple, and peppers.",20.95,FALSE,FALSE
+Pork & Beef,pork-beef,Beef Rendang,"Tender beef simmered with cinnamon, cloves, lemongrass, and coconut milk.",22.95,FALSE,FALSE
+Pork & Beef,pork-beef,Beef with American Broccoli,Malaysian-style beef served with broccoli.,20.95,FALSE,FALSE
+Clay Pot & Sizzling Dishes,casseroles,Curry Mixed Vegetables in a Clay Pot,Mixed vegetables cooked in a clay pot curry.,21.95,TRUE,FALSE
+Clay Pot & Sizzling Dishes,casseroles,Bean Curd in Casserole,"Lightly fried egg tofu with shrimp, pork, vegetables, and Chinese mushroom in special sauce.",20.95,TRUE,FALSE
+Clay Pot & Sizzling Dishes,casseroles,Salted Fish with Eggplant in Casserole,"Eggplant with salted fish, minced pork, carrot, ginger, and scallion in brown sauce.",20.95,FALSE,FALSE
+Clay Pot & Sizzling Dishes,casseroles,Seafood Combination Casserole with Bean Curd,"Seafood and tender tofu in a rich, savory casserole.",21.95,FALSE,FALSE
+Clay Pot & Sizzling Dishes,casseroles,Chicken in a Clay Pot,"Chicken with basil, ginger, mushroom, and dried chili.",20.95,TRUE,FALSE
+Clay Pot & Sizzling Dishes,casseroles,Nyonya Curry Fish Head Casserole,Fish head casserole with rich Nyonya curry.,28.95,TRUE,FALSE
+Clay Pot & Sizzling Dishes,casseroles,Sizzling Nyonya Tofu Platter,"Egg tofu with pork, shrimp, mushrooms, vegetables, and chef's special sauce.",19.95,TRUE,FALSE
+Clay Pot & Sizzling Dishes,casseroles,Sizzling Beef with Black Pepper,Sizzling beef platter with black pepper.,21,TRUE,FALSE
+Desserts,desserts,Mango Pudding,Homemade mango pudding topped with fresh mango.,8.5,FALSE,TRUE
+Desserts,desserts,ABC,"Shaved ice with red bean, corn, palm seeds, jelly, milk, brown sugar, and rose syrup.",8.95,FALSE,TRUE
+Desserts,desserts,Chendol,"Green rice-flour jelly, sweet red beans, shaved ice, and coconut milk.",8.95,FALSE,TRUE
+Desserts,desserts,Pulut Hitam,"Creamy black glutinous rice with coconut milk, served hot.",7.5,FALSE,TRUE
+Desserts,desserts,Buboh Chacha,Sweet potato and yam with coconut milk.,7.5,FALSE,TRUE
+Desserts,desserts,Peanut Pancake,Traditional Malaysian peanut pancake.,11.95,FALSE,TRUE
+Desserts,desserts,Tiramisu Cake,Espresso-soaked sponge cake with mascarpone and cocoa.,8.5,FALSE,TRUE
+Desserts,desserts,Profiteroles,Cream puffs with vanilla and chocolate cream.,8.5,FALSE,TRUE
+Beverages,drinks,Fresh Orange Juice,"Fresh, refreshing orange juice.",6.95,FALSE,TRUE
+Beverages,drinks,Fresh Coconut Drink,Real whole coconut.,8.95,FALSE,TRUE
+Beverages,drinks,Malaysian Iced Coffee,Rich and flavorful Malaysian-style iced coffee.,6.95,FALSE,TRUE
+Beverages,drinks,Malaysian Iced Tea,"Sweet, refreshing tea with a strong tea aroma.",6.95,FALSE,TRUE
+Beverages,drinks,Thai Iced Tea,"Rich, smooth Thai-style iced tea.",6.95,FALSE,TRUE
+Beverages,drinks,Soya Bean with Grass Jelly,Soybean milk with cool grass jelly.,6.95,FALSE,TRUE
+Beverages,drinks,Honey Lime Drink,Sweet and cooling kumquat-based drink.,6.5,FALSE,TRUE
+Beverages,drinks,Lychee Drink,Sweet lychee drink served cold.,6.5,FALSE,TRUE
+Beverages,drinks,Hot White Coffee,Rich and creamy Malaysian white coffee.,6.5,FALSE,TRUE
+Beverages,drinks,Hot Teh Tarik,Traditional Malaysian pulled milk tea.,6.5,FALSE,TRUE

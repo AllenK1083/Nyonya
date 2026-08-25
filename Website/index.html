@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta
+    name="description"
+    content="Nyonya is a cash-only Malaysian restaurant in Chinatown, New York City, serving traditional Malaysian cuisine, vegan options, takeout, and ample portions."
+  />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#9a2f24" />
+
+  <link rel="canonical" href="https://www.nyonyanyc.com/" />
+
+  <meta property="og:type" content="restaurant.restaurant" />
+  <meta
+    property="og:title"
+    content="Nyonya | Malaysian Restaurant in Chinatown, NYC"
+  />
+  <meta
+    property="og:description"
+    content="Traditional Malaysian cuisine, generous portions, vegan options, and takeout at 199 Grand St in New York City."
+  />
+  <meta property="og:url" content="https://www.nyonyanyc.com/" />
+  <meta
+    property="og:image"
+    content="https://www.nyonyanyc.com/Assets/Nyonya%20Logo%20Alpha.png"
+  />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <title>Nyonya | Malaysian Restaurant in Chinatown, NYC</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <script src="menu-data.js" defer></script>
+  <script src="script.js" defer></script>
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "name": "Nyonya",
+      "description": "Down-to-earth restaurant serving ample portions of traditional Malaysian cuisine.",
+      "servesCuisine": "Malaysian",
+      "priceRange": "$$",
+      "telephone": "+1-212-334-3669",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "199 Grand St",
+        "addressLocality": "New York",
+        "addressRegion": "NY",
+        "postalCode": "10013",
+        "addressCountry": "US"
+      },
+      "currenciesAccepted": "USD",
+      "paymentAccepted": "Cash",
+      "hasMenu": "https://www.nyonyanyc.com/menu.html",
+      "image": "https://www.nyonyanyc.com/Assets/Nyonya%20Logo%20Alpha.png",
+      "sameAs": [
+        "https://www.google.com/maps/search/?api=1&query=Nyonya%2C%20199%20Grand%20St%2C%20New%20York%2C%20NY%2010013",
+        "https://www.yelp.com/biz/nyonya-new-york"
+      ]
+    }
+  </script>
+</head>
+
+<body>
+  <div class="cuisine-background" aria-hidden="true"></div>
+
+  <header>
+    <div class="wrap nav">
+      <a class="logo" href="#top" aria-label="Nyonya home">
+        <img
+          src="../Assets/Nyonya Logo Alpha.png"
+          alt="Nyonya Malaysian Restaurant"
+        />
+      </a>
+
+      <nav aria-label="Main navigation">
+        <a href="menu.html">Menu</a>
+        <a href="#about">About</a>
+        <a href="#visit">Visit</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="wrap intro" aria-labelledby="page-title">
+      <p class="eyebrow">Malaysian Restaurant · Chinatown · New York City</p>
+
+      <h1 id="page-title">
+        Traditional Malaysian cuisine in the heart of NYC.
+      </h1>
+
+      <p>
+        Nyonya serves generous portions of Malaysian classics, from nasi lemak
+        and roti canai to curry, noodles, seafood, and vegan-friendly dishes
+        on Grand Street in Chinatown.
+      </p>
+
+      <div class="intro-actions">
+        <a class="button-link" href="menu.html">Explore the menu</a>
+
+        <a
+          class="text-link"
+          href="https://www.google.com/maps/search/?api=1&query=Nyonya%2C%20199%20Grand%20St%2C%20New%20York%2C%20NY%2010013"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Get directions
+        </a>
+      </div>
+    </section>
+
+    <div class="hero-image">
+      <img
+        src="../Assets/Nyonya Logo Alpha.png"
+        alt="Logo for Nyonya Malaysian Restaurant, Chinatown NYC"
+      />
+    </div>
+
+    <section
+      id="menu-preview"
+      class="menu-section"
+      aria-labelledby="menu-heading"
+    >
+      <div class="wrap">
+        <div class="menu-heading">
+          <div>
+            <p class="eyebrow">Nyonya Menu</p>
+            <h2 id="menu-heading">
+              Malaysian favorites, one category at a time.
+            </h2>
+          </div>
+
+          <p class="menu-intro">
+            Browse a preview of Nyonya favorites, then view the full menu for
+            all available dishes and prices.
+          </p>
+        </div>
+
+        <div
+          id="menu-tabs"
+          class="menu-tabs"
+          role="tablist"
+          aria-label="Menu categories"
+        ></div>
+
+        <div
+          id="menu-panel"
+          class="menu-panel"
+          role="tabpanel"
+          aria-labelledby="tab-appetizers"
+          tabindex="0"
+        >
+          <div class="menu-panel-topline">
+            <h3 id="menu-category-title">Loading menu…</h3>
+
+            <p id="menu-category-note">
+              Please wait while the menu loads.
+            </p>
+          </div>
+
+          <div id="menu-grid" class="menu-grid" aria-live="polite"></div>
+
+          <div class="menu-controls">
+            <button id="previous-menu" type="button" disabled>
+              Previous
+            </button>
+
+            <p id="menu-page-status" aria-live="polite"></p>
+
+            <button id="next-menu" type="button" disabled>
+              Next
+            </button>
+          </div>
+        </div>
+
+        <p class="full-menu-link">
+          <a class="text-link" href="menu.html">
+            View the complete menu
+          </a>
+        </p>
+      </div>
+    </section>
+
+    <section id="about" class="wrap about" aria-labelledby="about-heading">
+      <div>
+        <p class="eyebrow">About Nyonya</p>
+        <h2 id="about-heading">Comforting, vibrant Malaysian cooking.</h2>
+      </div>
+
+      <div>
+        <p>
+          Nyonya is a down-to-earth Malaysian restaurant in New York City’s
+          Chinatown, serving classic dishes built around aromatic herbs,
+          coconut, chilies, noodles, rice, seafood, and rich curry sauces.
+        </p>
+
+        <p>
+          The menu includes vegan-friendly options, and the restaurant is
+          cash-only. For dietary needs or ingredient questions, call before
+          visiting so the team can help guide your order.
+        </p>
+      </div>
+    </section>
+
+    <section
+      id="reviews"
+      class="reviews-section"
+      aria-labelledby="reviews-heading"
+    >
+      <div class="wrap">
+        <p class="eyebrow">Guest Reviews</p>
+        <h2 id="reviews-heading">What diners are saying.</h2>
+
+        <p class="reviews-link">
+          <a
+            class="text-link"
+            href="https://www.google.com/maps/search/?api=1&query=Nyonya%2C%20199%20Grand%20St%2C%20New%20York%2C%20NY%2010013"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Read reviews on Google
+          </a>
+        </p>
+      </div>
+    </section>
+
+    <section id="visit" class="visit-section" aria-labelledby="visit-heading">
+      <div class="wrap visit-grid">
+        <div class="visit-copy">
+          <p class="eyebrow">Visit Nyonya</p>
+          <h2 id="visit-heading">Find us on Grand Street.</h2>
+
+          <p>
+            Located in Chinatown, Nyonya is available for dine-in and takeout.
+            Please bring cash; the restaurant is cash-only.
+          </p>
+
+          <div class="visit-actions">
+            <a
+              class="button-link"
+              href="https://www.google.com/maps/search/?api=1&query=Nyonya%2C%20199%20Grand%20St%2C%20New%20York%2C%20NY%2010013"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Get directions
+            </a>
+
+            <a class="text-link" href="tel:+12123343669">
+              Call (212) 334-3669
+            </a>
+          </div>
+        </div>
+
+        <div class="business-info">
+          <div>
+            <strong>Address</strong>
+            <address>199 Grand St, New York, NY 10013</address>
+          </div>
+
+          <div>
+            <strong>Phone</strong>
+            <a href="tel:+12123343669">(212) 334-3669</a>
+          </div>
+
+          <div>
+            <strong>Service</strong>
+            <span>
+              Dine-in and takeout · Cash-only · Vegan options available
+            </span>
+          </div>
+
+          <div>
+            <strong>Hours</strong>
+            <span>
+              Mon 11:00 AM - 10:00 PM <br> Tue 11:00 AM - 10:00 PM <br> Wed 11:00 AM - 10:00 PM <br> Thu 11:00 AM - 10:00 PM <br> Fri 11:00 AM - 11:00 PM <br> Sat 11:00 AM - 11:00 PM <br>  Sun 11:00 AM - 10:00 PM
+            </span>
+          </div>
+        </div>
+
+        <div class="map-embed">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.9527442546637!2d-73.99949302331!3d40.719056771392665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25988489152d1%3A0x6ab371f7ee872274!2sNyonya!5e0!3m2!1sen!2sus!4v1787349106007!5m2!1sen!2sus"
+            title="Google Map showing Nyonya, 199 Grand Street, New York, NY"
+            loading="lazy"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+    </section>
+
+    <section class="photo-credit" aria-label="Temporary photo credit">
+      <div class="wrap">
+        Temporary test background images are externally hosted and will be
+        replaced before launch.
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap footer-content">
+      <p class="footer-copy">
+        © 2026 Nyonya · Malaysian Restaurant in Chinatown, New York City
+      </p>
+
+      <div class="footer-review-images" aria-label="Review links">
+        <a
+          href="https://www.google.com/maps/search/?api=1&query=Nyonya%2C%20199%20Grand%20St%2C%20New%20York%2C%20NY%2010013"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Read Nyonya reviews on Google"
+        >
+          <img src="../Assets/google.png" alt="" />
+          <span>Google Reviews</span>
+        </a>
+
+        <a
+          href="https://www.yelp.com/biz/nyonya-new-york"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Read Nyonya reviews on Yelp"
+        >
+          <img src="../Assets/Yelp.png" alt="" />
+          <span>Yelp Reviews</span>
+        </a>
+      </div>
+
+      <p class="footer-credit">
+        Website created by
+        <a
+          href="https://ak2ny.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          AK2NY.com
+        </a>
+      </p>
+    </div>
+  </footer>
+</body>
+</html>

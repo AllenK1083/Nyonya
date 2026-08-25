@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta
+    name="description"
+    content="Browse Malaysian favorites at Nyonya, including roti canai, nasi lemak, curry, noodles, seafood, vegetarian dishes, desserts, and drinks."
+  />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#9a2f24" />
+
+  <link rel="canonical" href="https://www.nyonyanyc.com/menu.html" />
+
+  <meta property="og:type" content="website" />
+  <meta
+    property="og:title"
+    content="Menu | Nyonya Malaysian Restaurant, Chinatown NYC"
+  />
+  <meta
+    property="og:description"
+    content="Browse Malaysian favorites at Nyonya, including roti canai, nasi lemak, curry, noodles, seafood, vegetarian dishes, desserts, and drinks."
+  />
+  <meta property="og:url" content="https://www.nyonyanyc.com/menu.html" />
+  <meta
+    property="og:image"
+    content="https://www.nyonyanyc.com/Assets/Nyonya%20Waterpaint.jpg"
+  />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <title>Menu | Nyonya Malaysian Restaurant, Chinatown NYC</title>
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="menu.css" />
+
+  <script src="menu-data.js" defer></script>
+  <script src="menu-page.js" defer></script>
+</head>
+
+<body>
+  <div class="cuisine-background" aria-hidden="true"></div>
+
+  <header>
+    <div class="wrap nav">
+      <a class="logo" href="index.html" aria-label="Nyonya home">
+        <img
+          src="Assets/Nyonya Logo Alpha.png"
+          alt="Nyonya Malaysian Restaurant"
+        />
+      </a>
+
+      <nav aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="menu.html" aria-current="page">Menu</a>
+        <a href="index.html#about">About</a>
+        <a href="index.html#visit">Visit</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="wrap menu-page-heading" aria-labelledby="menu-page-title">
+      <p class="eyebrow">Full Menu</p>
+
+      <h1 id="menu-page-title">
+        Malaysian favorites from appetizers to desserts.
+      </h1>
+
+      <p class="menu-note">
+        Prices and availability may change. Please call Nyonya directly for the
+        latest menu details, dietary questions, and takeout availability.
+      </p>
+    </section>
+
+    <nav class="menu-jump-nav" aria-label="Jump to menu category">
+      <div
+        id="menu-jump-links"
+        class="wrap menu-jump-links"
+      ></div>
+    </nav>
+
+    <section class="menu-list-section">
+      <div class="wrap">
+        <div id="menu-loading" class="menu-loading" role="status">
+          Loading menu…
+        </div>
+
+        <div id="menu-content"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap footer-content">
+      <p class="footer-copy">
+        © 2026 Nyonya · Malaysian Restaurant in Chinatown, New York City
+      </p>
+
+      <div class="footer-review-images" aria-label="Review links">
+        <a
+          href="https://www.google.com/maps/search/?api=1&query=Nyonya%2C%20199%20Grand%20St%2C%20New%20York%2C%20NY%2010013"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Read Nyonya reviews on Google"
+        >
+          <img src="../Assets/google.png" alt="" />
+          <span>Google Reviews</span>
+        </a>
+
+        <a
+          href="https://www.yelp.com/biz/nyonya-new-york"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Read Nyonya reviews on Yelp"
+        >
+          <img src="../Assets/Yelp.png" alt="" />
+          <span>Yelp Reviews</span>
+        </a>
+      </div>
+
+      <p class="footer-credit">
+        Website created by
+        <a
+          href="https://ak2ny.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          AK2NY.com
+        </a>
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
